@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/01/03 10:39:41 by shobeedev               shobee4ever      */
-/*   Updated: 2026/01/03 12:54:39 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/01/03 13:23:55 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ int tt_array_max(int arr[],int len)
 int tt_array_min(int arr[],int len)
 {
 	int i = 0;
-	int min = 0;
+	int min = arr[i];
 	while(i < len)
 	{
 		if(arr[i] < min)
@@ -188,7 +188,7 @@ bool tt_array_is_palindrome(int arr[],int len)
 	int i = 0;
 	while(i <= len/2)
 	{
-		if(arr[i] 1 != arr[len-i-1])
+		if(arr[i] != arr[len-i-1])
 			return false;
 		i++;
 	}
@@ -210,7 +210,7 @@ int tt_array_copy_odds(int src[],int dest[],int len)
 	}
 	return j;
 }
-int ttcl_array_copy_primes(int src[],int dest[],int len)
+int tt_array_copy_primes(int src[],int dest[],int len)
 {
 	int i = 0;
 	int j = 0;
