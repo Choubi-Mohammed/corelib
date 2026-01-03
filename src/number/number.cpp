@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2025/12/29 17:38:04 by shobeedev               shobee4ever      */
-/*   Updated: 2025/12/29 18:44:54 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/01/03 11:19:20 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -128,4 +128,10 @@ double tt_ceil(double nbr)
 	return res;
 }
 
-
+void tt_swap_nbr(int &num1,int &num2)
+{
+	int tmp;
+	tmp = num1;
+	num1 = num2;
+	num2 = tmp;
+}
